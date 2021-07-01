@@ -7,7 +7,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
     .then(data => {
 
         data.forEach(element => {
-            output = output + `<tr><td> ${element.name} </td><td> ${element.email}</td><td><a class="button" href="./posts.html?id=${element.id}">Get posts</a></td></tr>`;
+            output = output + `<tr><td> ${element.name} </td><td> ${element.email}</td><td><a class="button" href="./posts.html?id=${element.id}">Get User’s Posts</a></td></tr>`;
         });
 
         output = output + "</table>"
