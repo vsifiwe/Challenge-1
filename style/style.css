@@ -22,14 +22,6 @@ table thead tr {
 table th, table td {
     padding: 15px 30px;
 }
-/* 
-.styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
-} */
 
 #content {
     padding: 5%;
